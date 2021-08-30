@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Simple Chains: Lumber</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="DSP_WoodRack"]/building/fixedStorageSettings/filter/thingDefs</xpath>
+          <value>
+            <li>Owl_WoodLog</li>
+            <li>Owl_GreenLumber</li>
+            <li>Owl_Firewood</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

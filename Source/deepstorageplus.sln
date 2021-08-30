@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "deepstorageplus", "deepstorageplus\deepstorageplus.csproj", "{3811C331-3881-4217-AEDE-E1829F0A9C12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3811C331-3881-4217-AEDE-E1829F0A9C12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3811C331-3881-4217-AEDE-E1829F0A9C12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3811C331-3881-4217-AEDE-E1829F0A9C12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3811C331-3881-4217-AEDE-E1829F0A9C12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A9E9DC0-F1FA-4837-9721-931ABDB42E96}
+	EndGlobalSection
+EndGlobal

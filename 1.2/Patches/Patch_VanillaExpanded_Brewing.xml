@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Brewing Expanded</li>
+    </mods>
+    <!-- <success>Always</success> -->
+    <!-- Add Vanilla Brewing drinks to Barrel -->
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="DSP_Barrel"]/building/fixedStorageSettings/filter/categories</xpath>
+      <value>
+        <li>VBE_Drinks</li>
+      </value>
+    </match>
+  </Operation>
+</Patch>

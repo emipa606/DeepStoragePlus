@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Deep Storage Plus (Continued)</name>
+  <packageId>Mlie.DeepStoragePlus</packageId>
+  <author>Sky</author>
+  <url>https://github.com/emipa606/DeepStoragePlus</url>
+  <supportedVersions>
+    <li>1.2</li>
+    <li>1.3</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+    <li>
+      <packageId>LWM.DeepStorage</packageId>
+      <displayName>LWM's Deep Storage</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=1617282896</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>LWM.DeepStorage</li>
+    <li>rimfridge.kv.rw</li>
+    <li>Adventurer.ExpandWoodwork</li>
+    <li>Owlchemist.SimpleChains.Lumber</li>
+    <li>Rah.RBSE</li>
+    <li>TrahsPanda.Blood</li>
+    <li>Abraxas.MSERevived</li>
+    <li>Dubwise.DubsBadHygiene</li>
+  </loadAfter>
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of Skys mod
+https://steamcommunity.com/sharedfiles/filedetails/?id=2401913079
+
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+
+[table]
+    [tr]
+        [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/DeepStoragePlus][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.imgur.com/NOW7jU1.png[/img]
+[h1]Deep Storage Plus[/h1]
+
+This is an extension mod to Deep Storage, adding a series of storage buildings that are carefully designed and balanced to fit in the gaps of the options provided by LWM's Deep Storage without bloating the Storage tab. Each storage building follows the rule of "more specific = more capacity".
+
+[h1]Buildings[/h1]
+
+[img]https://i.imgur.com/V4meI3J.png[/img]
+
+[b]Organ Fridge[/b]: 120 steel, 3 components. Stores up to 16 body parts, 8 per cell. Does not require electricity, because organs don't go bad so there wouldn't be a point. Requires Machining and Air Conditioning to unlock.
+
+[img]https://i.imgur.com/3w3vaH1.png[/img]
+
+[b]Barrel[/b]: 120 wood, 25 metallic stuff. Stores up to 8 stacks of one type of liquid (chemfuel, milk, wort, beer, psychite tea, go juice). Also supports Vanilla Expanded Brewing drinks. Other mods can be supported on request. You can only store one kind of liquid in it at a time, because it's a barrel. Requires Complex Furniture to unlock.
+
+[img]https://i.imgur.com/Qo76oRi.png[/img]
+
+[b]Firewood Rack[/b]: 60 wood, 150 buildable stuff. Stores up to 14 stacks of wood, 7 per tile. Also prevents deterioration. Requires Complex Furniture to unlock. Due to the rendering method, they look slightly wonky when densely placed, so keep that in mind. Who needs more than a couple thousand wood, anyways.
+
+[img]https://i.imgur.com/1ZRXBLx.png[/img]
+
+[b]Bin[/b]: 100 buildable stuff. Stores up to 6 stacks of loose resources, but is faster to use than the skip. Can also only store one type of item at a time. Currently supports raw food, raw plants, textiles, drugs, pemmican, kibble, herbal medicine. Open to adding more items on request. Requires Machining to unlock.
+
+
+[h1]Mod Compatibility[/h1]
+[b][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2186560858]Vanilla Brewing Expanded[/url][/b]: Can store all finished drinks. Doesn't store musts or mashes.
+[b][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1082915328]Expanded Woodworking[/url][/b]: Can store all wood logs and wood lumber in the firewood rack.
+[b][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2164584341]Bodyparts Rot[/url] or [url=https://steamcommunity.com/sharedfiles/filedetails/?id=850429707]Rah's Bionics and Surgery Expansion[/url] or [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2056706586]Medical System Expansion 2[/url][/b]: If [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1180721235]Rim Fridge[/url] is also loaded, will make Organ Fridges actually refrigerate, take power, be flickable, break down, etc.
+[b][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2167582651]VGP Garden Drinks UF[/url][/b]: Can store all Garden Sodas and Garden Alcohol. Doesn't store precursors. The patch probably works for the non-UF VGP, too.
+[b]Simple Chains: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1708709952]Lumber[/url], [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1702668415]Steel[/url], [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1713884017]Leather[/url][/b]: Can store all lumber types plus Firewood in the Firewood Rack. Can store tanning precursor in the barrel. Can store iron ore in the bin.
+[b][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2170595802][TRAHS]Blood[/url][/b]: Raw blood is storable in barrels.
+[b][url=https://steamcommunity.com/sharedfiles/filedetails/?id=836308268]Dubs Bad Hygiene[/url][/b]: Fecal sludge is storable in barrels, and biomatter is storable in bins.
+[b][TRAHS]Milkrats[/b]: All milks are storable in the barrel.
+[b]VFME - Simple Tofu![/b]: Tofu milk is storable in the barrel. Tofu and Tofu Cheese are storable in the bin.
+[b]Pawnmorpher[/b]: Mechanite slurry and cowmorph milk are storable in the barrel.
+
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+</description>
+</ModMetaData>
+

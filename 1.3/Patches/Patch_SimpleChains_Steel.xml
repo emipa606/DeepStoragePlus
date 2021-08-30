@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Simple Chains: Steel</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="DSP_Bin"]/building/fixedStorageSettings/filter/thingDefs</xpath>
+          <value>
+            <li>Owl_Iron</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
