@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Expanded Materials - Plastics</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="DSP_Barrel"]/building/fixedStorageSettings/filter/categories</xpath>
+          <value>
+            <li>VMEu_LiquidPlasticThingCategory</li>
+            <li>VMEu_ChemicalsThingCategory</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="DSP_Barrel"]/building/fixedStorageSettings/filter/thingDefs</xpath>
+          <value>
+            <li>VMEu_PlasticPellets_TierOne</li>
+            <li>VMEu_PlasticPellets_TierTwo</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

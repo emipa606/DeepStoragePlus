@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DSP_OrganFridge.label>Congélateur d'organes</DSP_OrganFridge.label>
+  <DSP_OrganFridge.description>Une glacière profonde et isolée pour ranger les organes, prothèses et autres parties du corps.\n\nRemarque: comme les organes de Rimworld ne pourrissent pas, ce bâtiment ne nécessite pas d'électricité.</DSP_OrganFridge.description>
+  <DSP_Barrel.label>Tonneau</DSP_Barrel.label>
+  <DSP_Barrel.description>Un grand tonneau pour stocker du liquide. Vous ne pouvez y conserver qu'un seul type de liquide à la fois car il s'agit d'un tonneau et le liquide y est versé.</DSP_Barrel.description>
+  <DSP_WoodRack.label>Support à bois</DSP_WoodRack.label>
+  <DSP_WoodRack.description>Un cadre en métal avec un couvercle pour stocker le bois de chauffage à l'extérieur sans que le bois ne soit mouillé.</DSP_WoodRack.description>
+  <DSP_Bin.label>Bac</DSP_Bin.label>
+  <DSP_Bin.description>Un bac pour ranger beaucoup de choses.</DSP_Bin.description>
+</LanguageData>

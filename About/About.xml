@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Deep Storage Plus (Continued)</name>
   <packageId>Mlie.DeepStoragePlus</packageId>
@@ -32,11 +32,11 @@
     <li>Abraxas.MSERevived</li>
     <li>Dubwise.DubsBadHygiene</li>
   </loadAfter>
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of Skys mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2401913079
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
     [tr]
@@ -45,7 +45,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2401913079
     [/tr]
 [/table]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 [h1]Deep Storage Plus[/h1]
 
 This is an extension mod to Deep Storage, adding a series of storage buildings that are carefully designed and balanced to fit in the gaps of the options provided by LWM's Deep Storage without bloating the Storage tab. Each storage building follows the rule of "more specific = more capacity".
@@ -81,7 +81,7 @@ This is an extension mod to Deep Storage, adding a series of storage buildings t
 [b]VFME - Simple Tofu![/b]: Tofu milk is storable in the barrel. Tofu and Tofu Cheese are storable in the bin.
 [b]Pawnmorpher[/b]: Mechanite slurry and cowmorph milk are storable in the barrel.
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
@@ -89,7 +89,5 @@ This is an extension mod to Deep Storage, adding a series of storage buildings t
 [*] For best support, please use the Discord-channel for error-reporting.
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
-[/list]
-</description>
+[/list]</description>
 </ModMetaData>
-
