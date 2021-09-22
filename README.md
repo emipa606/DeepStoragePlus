@@ -5,6 +5,9 @@
 Update of Skys mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2401913079
 
+- Added french translation, thanks qux!
+- Added support for https://steamcommunity.com/sharedfiles/filedetails/?id=2465263608]Expanded Materials - Plastics
+
 ![Image](https://i.imgur.com/pufA0kM.png)
 
 	
@@ -62,5 +65,6 @@ This is an extension mod to Deep Storage, adding a series of storage buildings t
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
