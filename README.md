@@ -7,6 +7,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2401913079
 
 - Added french translation, thanks qux!
 - Added support for https://steamcommunity.com/sharedfiles/filedetails/?id=2465263608]Expanded Materials - Plastics
+- Added support for https://steamcommunity.com/sharedfiles/filedetails/?id=2023513450]Vanilla Factions Expanded - Medieval
 
 ![Image](https://i.imgur.com/pufA0kM.png)
 
