@@ -1,5 +1,8 @@
 # Changelog for DeepStoragePlus
 
+1.0.4.0 - Added a version of the barrel as a water-barrel if [url=https://steamcommunity.com/sharedfiles/filedetails/?id=836308268]Dubs Bad Hygiene[/url] is loaded
+
+
 1.0.3.0 - Fixed the VFEF Medival patch
 
 

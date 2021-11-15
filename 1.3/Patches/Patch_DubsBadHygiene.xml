@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Dubs Bad Hygiene</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="DSP_Bin"]/building/fixedStorageSettings/filter/thingDefs</xpath>
+          <value>
+            <li>Biosolids</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="DSP_Barrel"]/building/fixedStorageSettings/filter/thingDefs</xpath>
+          <value>
+            <li>FecalSludge</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[@Name="BasedWaterTower"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs</xpath>
+      <value>
+        <ThingDef Name="DSP_Barrel_Dubs" ParentName="BasedWaterTower">
+          <defName>DSP_Barrel_Dubs</defName>
+          <label>Water Barrel</label>
+          <description>A large barrel for storing copious amounts of water. This barrel is specifically made for storing water, no other liquids will be allowed.</description>
+          <graphicData>
+            <texPath>Things/Building/Storage/Barrel/barrelDub</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <drawSize>(3,3)</drawSize>
+          </graphicData>
+          <uiIconScale>0.7</uiIconScale>
+          <altitudeLayer>Building</altitudeLayer>
+          <passability>PassThroughOnly</passability>
+          <drawerType>MapMeshAndRealTime</drawerType>
+          <pathCost>80</pathCost>
+          <fillPercent>0.5</fillPercent>
+          <castEdgeShadows>true</castEdgeShadows>
+          <costList>
+            <WoodLog>80</WoodLog>
+          </costList>
+          <costStuffCount>25</costStuffCount>
+          <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+            <WorkToBuild>3000</WorkToBuild>
+            <Flammability>1.0</Flammability>
+          </statBases>
+          <size>(1,1)</size>
+          <comps>
+            <li Class="DubsBadHygiene.CompProperties_WaterStorage">
+              <WaterStorageCap>1000</WaterStorageCap>
+            </li>
+          </comps>
+          <stuffCategories>
+            <li>Metallic</li>
+          </stuffCategories>
+          <defaultPlacingRot>North</defaultPlacingRot>
+          <rotatable>false</rotatable>
+        </ThingDef>
+      </value>
+    </match>
+  </Operation>
+</Patch>
