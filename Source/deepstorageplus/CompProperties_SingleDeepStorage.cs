@@ -1,21 +1,20 @@
 ﻿using Verse;
 
-namespace deepstorageplus
+namespace deepstorageplus;
+
+// Class from https://github.com/KiameV/rimworld-rimfridge/blob/master/Source/CompProperties_SecondLayer.cs
+// Usage under MIT license
+public class CompProperties_SingleDeepStorage : CompProperties
 {
-    // Class from https://github.com/KiameV/rimworld-rimfridge/blob/master/Source/CompProperties_SecondLayer.cs
-    // Usage under MIT license
-    public class CompProperties_SingleDeepStorage : CompProperties
+    public AltitudeLayer altitudeLayer = AltitudeLayer.MoteOverhead;
+    public GraphicData graphicData = null;
+
+    public string ignoredComp = string.Empty;
+
+    public CompProperties_SingleDeepStorage()
     {
-        public AltitudeLayer altitudeLayer = AltitudeLayer.MoteOverhead;
-        public GraphicData graphicData = null;
-
-        public string ignoredComp = string.Empty;
-
-        public CompProperties_SingleDeepStorage()
-        {
-            compClass = typeof(CompSingleDeepStorage);
-        }
-
-        public float Altitude => altitudeLayer.AltitudeFor();
+        compClass = typeof(CompSingleDeepStorage);
     }
+
+    public float Altitude => altitudeLayer.AltitudeFor();
 }

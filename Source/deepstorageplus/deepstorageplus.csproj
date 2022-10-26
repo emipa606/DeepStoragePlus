@@ -1,12 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <OutputPath>..\..\1.3\Assemblies</OutputPath>
-    <TargetFramework>net472</TargetFramework>
-    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <OutputPath>..\..\1.4\Assemblies</OutputPath>
+    <TargetFramework>net48</TargetFramework>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
     <DebugType>None</DebugType>
     <LangVersion>latest</LangVersion>
+    <FileVersion>1.4.1</FileVersion>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Krafs.Rimworld.Ref">
@@ -18,11 +18,10 @@
       <Version>*</Version>
       <ExcludeAssets>runtime</ExcludeAssets>
     </PackageReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="LWM.DeepStorage">
-      <HintPath>..\..\..\..\..\..\workshop\content\294100\1617282896\1.3\Assemblies\LWM.DeepStorage.dll</HintPath>
-      <Private>false</Private>
-    </Reference>
+	  <Reference Include="DeepStorage">
+		  <HintPath>..\..\..\..\..\..\workshop\content\294100\1617282896\1.4\Assemblies\LWM.DeepStorage.dll</HintPath>
+		  <CopyLocal>False</CopyLocal>
+		  <Private>false</Private>
+	  </Reference>
   </ItemGroup>
 </Project>
