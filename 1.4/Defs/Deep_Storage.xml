@@ -143,6 +143,7 @@
             <li>PsychiteTea</li>
             <li>GoJuice</li>
             <li>Neutroamine</li>
+            <li MayRequire="Ludeon.Rimworld.Biotech">HemogenPack</li>
           </thingDefs>
         </filter>
       </fixedStorageSettings>

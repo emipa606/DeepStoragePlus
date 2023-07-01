@@ -71,3 +71,4 @@ This is an extension mod to Deep Storage, adding a series of storage buildings t
 
 
 
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2589072911]Last updated 2023-07-01
