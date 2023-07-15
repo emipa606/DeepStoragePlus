@@ -11,6 +11,7 @@
     <match Class="PatchOperationFindMod">
       <mods>
         <li>[KV] RimFridge</li>
+        <li>RimFridge Updated</li>
       </mods>
       <match Class="PatchOperationSequence">
         <operations>
