@@ -10,7 +10,6 @@
           <xpath>/Defs/ThingDef[defName="DSP_Bin"]/building/fixedStorageSettings/filter/categories</xpath>
           <value>
             <li>Hides</li>
-            <li>PreparedHides</li>
           </value>
         </li>
         <li Class="PatchOperationAdd">

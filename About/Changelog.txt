@@ -1,5 +1,8 @@
 # Changelog for DeepStoragePlus
 
+1.4.4 - Fixed the patch for Simple Chains: Leather
+
+
 1.4.3 - Fixed the RBSE and RimFridge-patch
 
 
