@@ -6,7 +6,7 @@ namespace deepstorageplus;
 // Usage under MIT license
 public class CompProperties_SingleDeepStorage : CompProperties
 {
-    public AltitudeLayer altitudeLayer = AltitudeLayer.MoteOverhead;
+    public readonly AltitudeLayer altitudeLayer = AltitudeLayer.MoteOverhead;
     public GraphicData graphicData = null;
 
     public string ignoredComp = string.Empty;

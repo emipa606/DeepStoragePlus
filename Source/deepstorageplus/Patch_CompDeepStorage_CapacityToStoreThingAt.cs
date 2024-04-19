@@ -5,16 +5,7 @@ using Verse;
 
 namespace deepstorageplus;
 
-internal class DoHarmony : Mod
-{
-    public DoHarmony(ModContentPack content) : base(content)
-    {
-        var harmony = new Harmony("im.skye.rimworld.deepstorageplus");
-        harmony.PatchAll();
-    }
-}
-
-[HarmonyPatch(typeof(CompDeepStorage), "CapacityToStoreThingAt")]
+[HarmonyPatch(typeof(CompDeepStorage), nameof(CompDeepStorage.CapacityToStoreThingAt))]
 public static class Patch_CompDeepStorage_CapacityToStoreThingAt
 {
     // Execute some behaviour if parent has the SingleDeepStorage comp.

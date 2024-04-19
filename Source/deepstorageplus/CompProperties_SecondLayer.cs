@@ -6,8 +6,8 @@ namespace deepstorageplus;
 // Usage under MIT license
 public class CompProperties_SecondLayer : CompProperties
 {
-    public AltitudeLayer altitudeLayer = AltitudeLayer.MoteOverhead;
-    public GraphicData graphicData = null;
+    public readonly AltitudeLayer altitudeLayer = AltitudeLayer.MoteOverhead;
+    public readonly GraphicData graphicData = null;
 
     public CompProperties_SecondLayer()
     {

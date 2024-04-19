@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="DSP_OrganFridge" ParentName="LWM_DeepStorage">
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <defName>DSP_OrganFridge</defName>
+    <label>Organ Fridge</label>
+    <description>A deep, insulated cold box for storing organs, prosthetics, and other body parts. \n\nNote: because organs in Rimworld do not rot, this building does not require electricity.</description>
+    <graphicData>
+      <texPath>Things/Building/Storage/Fridge/OrganFridge</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(4,3)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <pathCost>80</pathCost>
+    <fillPercent>0.5</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <costList>
+      <Steel>120</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToBuild>9000</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <comps>
+      <li Class="deepstorageplus.CompProperties_SecondLayer">
+        <graphicData>
+          <texPath>Things/Building/Storage/Fridge/OrganFridgeLid</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <shaderType>Transparent</shaderType>
+          <drawSize>(4,3)</drawSize>
+        </graphicData>
+        <altitudeLayer>LayingPawn</altitudeLayer>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>2.5</glowRadius>
+        <glowColor>(89,188,255,0)</glowColor>
+      </li>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>8</maxNumberStacks>
+        <minTimeStoringTakes>25</minTimeStoringTakes>
+        <additionalTimeEachDef>30</additionalTimeEachDef>
+        <!-- Got to sort things! -->
+        <overlayType>SumOfItemsPerCell</overlayType>
+      </li>
+    </comps>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <preventDeteriorationInside>true</preventDeteriorationInside>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+      </defaultStorageSettings>
+      <fixedStorageSettings>
+        <filter>
+          <categories>
+            <li>BodyParts</li>
+          </categories>
+        </filter>
+      </fixedStorageSettings>
+    </building>
+    <staticSunShadowHeight>0.6</staticSunShadowHeight>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <researchPrerequisites>
+      <li>Machining</li>
+      <li>AirConditioning</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef Name="DSP_Barrel" ParentName="LWM_DeepStorage">
+    <defName>DSP_Barrel</defName>
+    <label>Barrel</label>
+    <description>A large barrel for storing copious amounts of liquid. You can only store one type of item in it at a time, because it's a barrel, and you're pouring liquid into it.</description>
+    <graphicData>
+      <texPath>Things/Building/Storage/Barrel/barrel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <uiIconScale>0.7</uiIconScale>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <pathCost>80</pathCost>
+    <fillPercent>0.5</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <costList>
+      <WoodLog>120</WoodLog>
+    </costList>
+    <costStuffCount>25</costStuffCount>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>3000</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <comps>
+      <li Class="deepstorageplus.CompProperties_SecondLayer">
+        <graphicData>
+          <texPath>Things/Building/Storage/Barrel/barrelsecond</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+          <drawSize>(3,3)</drawSize>
+        </graphicData>
+        <altitudeLayer>LayingPawn</altitudeLayer>
+      </li>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>8</maxNumberStacks>
+        <minTimeStoringTakes>10</minTimeStoringTakes>
+        <!-- Takes more time to pour more liquid in -->
+        <additionalTimeStackSize>5</additionalTimeStackSize>
+        <overlayType>SumOfAllItems</overlayType>
+      </li>
+      <li Class="deepstorageplus.CompProperties_SingleDeepStorage">
+        <ignoredComp>DSP_Barrel</ignoredComp>
+      </li>
+      <li>
+        <!-- Workmanship can go into a barrel! -->
+        <compClass>CompQuality</compClass>
+      </li>
+    </comps>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+      </defaultStorageSettings>
+      <fixedStorageSettings>
+        <filter>
+          <categories>
+          </categories>
+          <thingDefs>
+            <li>Chemfuel</li>
+            <li>Milk</li>
+            <li>Wort</li>
+            <li>Beer</li>
+            <li>PsychiteTea</li>
+            <li>GoJuice</li>
+            <li>Neutroamine</li>
+            <li MayRequire="Ludeon.Rimworld.Biotech">HemogenPack</li>
+          </thingDefs>
+        </filter>
+      </fixedStorageSettings>
+    </building>
+    <defaultPlacingRot>North</defaultPlacingRot>
+    <rotatable>false</rotatable>
+  </ThingDef>
+  <ThingDef Name="DSP_WoodRack" ParentName="LWM_DeepStorage">
+    <defName>DSP_WoodRack</defName>
+    <label>Firewood Rack</label>
+    <description>A metal frame with a cover designed for storing firewood outside, without the wood getting wet.</description>
+    <graphicData>
+      <texPath>Things/Building/Storage/WoodRack/woodrack</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(4,3)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <pathCost>80</pathCost>
+    <fillPercent>0.3</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <costList>
+      <WoodLog>60</WoodLog>
+    </costList>
+    <costStuffCount>150</costStuffCount>
+    <statBases>
+      <!-- It's just a bunch of planks put together with Stuff. Not *that* sturdy. -->
+      <MaxHitPoints>40</MaxHitPoints>
+      <WorkToBuild>600</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>1</Beauty>
+    </statBases>
+    <size>(2,1)</size>
+    <comps>
+      <li Class="deepstorageplus.CompProperties_SecondLayer">
+        <graphicData>
+          <texPath>Things/Building/Storage/WoodRack/woodracktop</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+          <drawSize>(4,3)</drawSize>
+        </graphicData>
+        <altitudeLayer>LayingPawn</altitudeLayer>
+      </li>
+      <li Class="LWM.DeepStorage.Properties">
+        <maxNumberStacks>7</maxNumberStacks>
+        <!-- Time to store is same as for a skip -->
+        <minTimeStoringTakes>100</minTimeStoringTakes>
+        <additionalTimeStackSize>10</additionalTimeStackSize>
+        <overlayType>SumOfItemsPerCell</overlayType>
+      </li>
+      <li Class="deepstorageplus.CompProperties_SingleDeepStorage">
+        <ignoredComp>DSP_WoodRack</ignoredComp>
+      </li>
+    </comps>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>false</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+      </defaultStorageSettings>
+      <fixedStorageSettings>
+        <filter>
+          <categories>
+          </categories>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+      </fixedStorageSettings>
+    </building>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <rotatable>true</rotatable>
+    <researchPrerequisites>
+      <li>ComplexFurniture</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef Name="DSP_Bin" ParentName="LWM_DeepStorage">
+    <defName>DSP_Bin</defName>
+    <label>Bin</label>
+    <description>A large bin for storing a lot of one type of thing. On the plus side, it's faster to store things than a skip, since you don't need to arrange anything.</description>
+    <graphicData>
+      <texPath>Things/Building/Storage/GrainBin/grainbin</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <pathCost>80</pathCost>
+    <fillPercent>0.3</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <costList>
+    </costList>
+    <costStuffCount>100</costStuffCount>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>600</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <comps>
+      <li Class="deepstorageplus.CompProperties_SecondLayer">
+        <graphicData>
+          <texPath>Things/Building/Storage/GrainBin/grainbintop</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+          <drawSize>(3,3)</drawSize>
+        </graphicData>
+        <altitudeLayer>LayingPawn</altitudeLayer>
+      </li>
+      <li Class="LWM.DeepStorage.Properties">
+        <!-- Same amount of stacks stored as a skip; slightly more stacks compared to food basket -->
+        <maxNumberStacks>6</maxNumberStacks>
+        <!-- Time to store is shorter than a skip -->
+        <minTimeStoringTakes>60</minTimeStoringTakes>
+        <overlayType>SumOfItemsPerCell</overlayType>
+      </li>
+      <li Class="deepstorageplus.CompProperties_SingleDeepStorage">
+        <ignoredComp>DSP_Bin</ignoredComp>
+      </li>
+    </comps>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <building>
+      <preventDeteriorationOnTop>false</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>false</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+      </defaultStorageSettings>
+      <fixedStorageSettings>
+        <filter>
+          <categories>
+            <li>FoodRaw</li>
+            <li>PlantMatter</li>
+            <li>Textiles</li>
+            <li>Drugs</li>
+          </categories>
+          <thingDefs>
+            <li>Pemmican</li>
+            <li>Kibble</li>
+            <li>MedicineHerbal</li>
+          </thingDefs>
+        </filter>
+      </fixedStorageSettings>
+    </building>
+    <defaultPlacingRot>North</defaultPlacingRot>
+    <rotatable>false</rotatable>
+    <researchPrerequisites>
+      <li>Machining</li>
+    </researchPrerequisites>
+  </ThingDef>
+</Defs>

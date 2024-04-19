@@ -13,17 +13,19 @@ internal class CompSecondLayer : ThingComp
     {
         get
         {
-            if (graphicInt == null)
+            if (graphicInt != null)
             {
-                if (Props.graphicData == null)
-                {
-                    Log.ErrorOnce($"{parent.def} has no SecondLayer graphicData but we are trying to access it.",
-                        764532);
-                    return BaseContent.BadGraphic;
-                }
-
-                graphicInt = Props.graphicData.GraphicColoredFor(parent);
+                return graphicInt;
             }
+
+            if (Props.graphicData == null)
+            {
+                Log.ErrorOnce($"{parent.def} has no SecondLayer graphicData but we are trying to access it.",
+                    764532);
+                return BaseContent.BadGraphic;
+            }
+
+            graphicInt = Props.graphicData.GraphicColoredFor(parent);
 
             return graphicInt;
         }
