@@ -1,5 +1,8 @@
 # Changelog for DeepStoragePlus
 
+1.5.1 - Fixed Expanded Woodworking patch
+
+
 1.5.0 - Mod updated for 1.5 and passed autotests
 
 

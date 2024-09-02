@@ -1,19 +1,14 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Expanded Woodworking</li>
-    </mods>
-    <match Class="PatchOperationSequence">
-      <operations>
-        <li Class="PatchOperationAdd">
-          <xpath>/Defs/ThingDef[defName="DSP_WoodRack"]/building/fixedStorageSettings/filter/categories</xpath>
-          <value>
-            <li>WoodLumber</li>
-            <li>WoodTypes</li>
-          </value>
-        </li>
-      </operations>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="WoodLumberBase"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="DSP_WoodRack"]/building/fixedStorageSettings/filter/categories</xpath>
+      <value>
+        <li>WoodLumber</li>
+        <li>WoodTypes</li>
+      </value>
     </match>
   </Operation>
 </Patch>
