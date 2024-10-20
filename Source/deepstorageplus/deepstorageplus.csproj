@@ -6,7 +6,7 @@
     <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
     <DebugType>None</DebugType>
     <LangVersion>latest</LangVersion>
-    <FileVersion>1.5.0</FileVersion>
+    <FileVersion>1.5.2</FileVersion>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Krafs.Rimworld.Ref">
@@ -19,7 +19,7 @@
       <ExcludeAssets>runtime</ExcludeAssets>
     </PackageReference>
     <Reference Include="DeepStorage">
-      <HintPath>..\..\..\..\..\..\workshop\content\294100\3220688225\1.5\Assemblies\LWM.DeepStorage.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\workshop\content\294100\1617282896\1.5\Assemblies\LWM.DeepStorage.dll</HintPath>
       <CopyLocal>False</CopyLocal>
       <Private>false</Private>
     </Reference>

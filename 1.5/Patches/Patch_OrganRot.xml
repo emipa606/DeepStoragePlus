@@ -7,12 +7,11 @@
       <li>Rah's Bionics and Surgery Expansion - Hardcore Edition</li>
       <li>Medical System Expansion 2</li>
       <li>Medical System Expansion - Revived</li>
+      <li>Medical System Expansion - Double Revived</li>
     </mods>
-    <match Class="PatchOperationFindMod">
-      <mods>
-        <li>[KV] RimFridge</li>
-        <li>RimFridge Updated</li>
-      </mods>
+    <match Class="PatchOperationConditional">
+      <xpath>/Defs/ThingDef[defName="RimFridge_SingleRefrigerator"]</xpath>
+      <success>Always</success>
       <match Class="PatchOperationSequence">
         <operations>
           <li Class="PatchOperationAdd">
