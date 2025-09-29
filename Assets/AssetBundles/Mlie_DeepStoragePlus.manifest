@@ -1,0 +1,53 @@
+ManifestFileVersion: 0
+CRC: 200039060
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 197c9a4d1abc94c9ec2f8449702f126e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 197c9a4d1abc94c9ec2f8449702f126e
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.DeepStoragePlus/Textures/Things/Building/Storage/WoodRack/woodrack_west.png
+- Assets/Data/Mlie.DeepStoragePlus/Textures/Things/Building/Storage/Barrel/barrelDubm.png
+- Assets/Data/Mlie.DeepStoragePlus/Textures/Things/Building/Storage/WoodRack/woodracktop_northm.png
+- Assets/Data/Mlie.DeepStoragePlus/Textures/Things/Building/Storage/Fridge/OrganFridge_west.png
+- Assets/Data/Mlie.DeepStoragePlus/Textures/Things/Building/Storage/Barrel/barrelsecond.png
+- Assets/Data/Mlie.DeepStoragePlus/Textures/Things/Building/Storage/Fridge/OrganFridgeLid_north.png
+- Assets/Data/Mlie.DeepStoragePlus/Textures/Things/Building/Storage/WoodRack/woodrack_northm.png
+- Assets/Data/Mlie.DeepStoragePlus/Textures/Things/Building/Storage/WoodRack/woodracktop_westm.png
+- Assets/Data/Mlie.DeepStoragePlus/Textures/Things/Building/Storage/WoodRack/woodrack_east.png
+- Assets/Data/Mlie.DeepStoragePlus/Textures/Things/Building/Storage/GrainBin/grainbin.png
+- Assets/Data/Mlie.DeepStoragePlus/Textures/Things/Building/Storage/WoodRack/woodracktop_south.png
+- Assets/Data/Mlie.DeepStoragePlus/Textures/Things/Building/Storage/WoodRack/woodrack_westm.png
+- Assets/Data/Mlie.DeepStoragePlus/Textures/Things/Building/Storage/WoodRack/woodrack_eastm.png
+- Assets/Data/Mlie.DeepStoragePlus/Textures/Things/Building/Storage/Fridge/OrganFridge_north.png
+- Assets/Data/Mlie.DeepStoragePlus/Textures/Things/Building/Storage/GrainBin/grainbin_m.png
+- Assets/Data/Mlie.DeepStoragePlus/Textures/Things/Building/Storage/WoodRack/woodracktop_north.png
+- Assets/Data/Mlie.DeepStoragePlus/Textures/Things/Building/Storage/WoodRack/woodrack_southm.png
+- Assets/Data/Mlie.DeepStoragePlus/Textures/Things/Building/Storage/GrainBin/grainbintop.png
+- Assets/Data/Mlie.DeepStoragePlus/Textures/Things/Building/Storage/WoodRack/woodrack_north.png
+- Assets/Data/Mlie.DeepStoragePlus/Textures/Things/Building/Storage/Fridge/OrganFridgeLid_south.png
+- Assets/Data/Mlie.DeepStoragePlus/Textures/Things/Building/Storage/WoodRack/woodracktop_west.png
+- Assets/Data/Mlie.DeepStoragePlus/Textures/Things/Building/Storage/Barrel/barrel_m.png
+- Assets/Data/Mlie.DeepStoragePlus/Textures/Things/Building/Storage/WoodRack/woodracktop_east.png
+- Assets/Data/Mlie.DeepStoragePlus/Textures/Things/Building/Storage/GrainBin/grainbintop_m.png
+- Assets/Data/Mlie.DeepStoragePlus/Textures/Things/Building/Storage/WoodRack/woodracktop_eastm.png
+- Assets/Data/Mlie.DeepStoragePlus/Textures/Things/Building/Storage/Barrel/barrel.png
+- Assets/Data/Mlie.DeepStoragePlus/Textures/Things/Building/Storage/Fridge/OrganFridge_east.png
+- Assets/Data/Mlie.DeepStoragePlus/Textures/Things/Building/Storage/WoodRack/woodrack_south.png
+- Assets/Data/Mlie.DeepStoragePlus/Textures/Things/Building/Storage/Fridge/OrganFridge_south.png
+- Assets/Data/Mlie.DeepStoragePlus/Textures/Things/Building/Storage/Fridge/OrganFridgeLid_west.png
+- Assets/Data/Mlie.DeepStoragePlus/Textures/Things/Building/Storage/WoodRack/woodracktop_southm.png
+- Assets/Data/Mlie.DeepStoragePlus/Textures/Things/Building/Storage/Barrel/barrelDub.png
+- Assets/Data/Mlie.DeepStoragePlus/Textures/Things/Building/Storage/Barrel/barrelsecond_m.png
+- Assets/Data/Mlie.DeepStoragePlus/Textures/Things/Building/Storage/Fridge/OrganFridgeLid_east.png
+Dependencies: []

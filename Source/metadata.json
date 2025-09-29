@@ -2,11 +2,18 @@
   "Continued": true,
   "CanAdd": "0",
   "CanRemove": "2",
-  "PreviewVersion": "1.5",
+  "PreviewVersion": "1.6",
   "SocialImageSet": true,
   "SearchTags": [
     " organization",
     "storage",
     " extended"
-  ]
+  ],
+  "Patches": true,
+  "Defs": true,
+  "Assemblies": true,
+  "LinesOfCode": 9304,
+  "LinesOfXML": 24004,
+  "CodeBaseSize": 71,
+  "LastXmlCleaning": "2025-09-29T13:42:49.768819+02:00"
 }

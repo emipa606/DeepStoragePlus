@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Barrel -->
+  <DSP_Barrel.label>Barrel</DSP_Barrel.label>
+  <!-- EN: A large barrel for storing copious amounts of liquid. You can only store one type of item in it at a time, because it's a barrel, and you're pouring liquid into it. -->
+  <DSP_Barrel.description>A large barrel for storing copious amounts of liquid. You can only store one type of item in it at a time, because it's a barrel, and you're pouring liquid into it.</DSP_Barrel.description>
+  <!-- EN: Bin -->
+  <DSP_Bin.label>Bin</DSP_Bin.label>
+  <!-- EN: A large bin for storing a lot of one type of thing. On the plus side, it's faster to store things than a skip, since you don't need to arrange anything. -->
+  <DSP_Bin.description>A large bin for storing a lot of one type of thing. On the plus side, it's faster to store things than a skip, since you don't need to arrange anything.</DSP_Bin.description>
+  <!-- EN: Organ Fridge -->
+  <DSP_OrganFridge.label>Organ Fridge</DSP_OrganFridge.label>
+  <!-- EN: A deep, insulated cold box for storing organs, prosthetics, and other body parts. \n\nNote: because organs in Rimworld do not rot, this building does not require electricity. -->
+  <DSP_OrganFridge.description>A deep, insulated cold box for storing organs, prosthetics, and other body parts. 
+
+Note: because organs in Rimworld do not rot, this building does not require electricity.</DSP_OrganFridge.description>
+  <!-- EN: Firewood Rack -->
+  <DSP_WoodRack.label>Firewood Rack</DSP_WoodRack.label>
+  <!-- EN: A metal frame with a cover designed for storing firewood outside, without the wood getting wet. -->
+  <DSP_WoodRack.description>A metal frame with a cover designed for storing firewood outside, without the wood getting wet.</DSP_WoodRack.description>
+</LanguageData>
