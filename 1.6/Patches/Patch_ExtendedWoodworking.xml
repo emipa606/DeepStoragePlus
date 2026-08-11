@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingCategoryDef[defName="WoodTypes"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="DSP_WoodRack"]/building/fixedStorageSettings/filter/categories</xpath>
+      <value>
+        <li>WoodTypes</li>
+      </value>
+    </match>
+  </Operation>
+</Patch>
