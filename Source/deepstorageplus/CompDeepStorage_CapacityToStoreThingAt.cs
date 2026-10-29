@@ -9,7 +9,7 @@ namespace deepstorageplus;
 public static class CompDeepStorage_CapacityToStoreThingAt
 {
     // Execute some behaviour if parent has the SingleDeepStorage comp.
-    private static void Postfix(CompDeepStorage __instance, Thing thing, Map map, IntVec3 cell, ref int __result)
+    public static void Postfix(CompDeepStorage __instance, Thing thing, Map map, IntVec3 cell, ref int __result)
     {
         // If it doesn't have the single storage comp just return
         var singleDeep = __instance.parent.GetComp<CompSingleDeepStorage>();

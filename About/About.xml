@@ -10,6 +10,7 @@
     <li>1.4</li>
     <li>1.5</li>
     <li>1.6</li>
+    <li>1.7</li>
   </supportedVersions>
   <modDependencies>
     <li>
@@ -17,12 +18,51 @@
       <displayName>Harmony</displayName>
       <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
     </li>
-    <li>
-      <packageId>LWM.DeepStorage</packageId>
-      <displayName>LWM's Deep Storage (Continued)</displayName>
-      <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=3532608331</steamWorkshopUrl>
-    </li>
   </modDependencies>
+  <modDependenciesByVersion>
+    <v1.2>
+      <li>
+        <packageId>LWM.DeepStorage</packageId>
+        <displayName>LWM's Deep Storage</displayName>
+        <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1617282896</steamWorkshopUrl>
+      </li>
+    </v1.2>
+    <v1.3>
+      <li>
+        <packageId>LWM.DeepStorage</packageId>
+        <displayName>LWM's Deep Storage</displayName>
+        <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1617282896</steamWorkshopUrl>
+      </li>
+    </v1.3>
+    <v1.4>
+      <li>
+        <packageId>LWM.DeepStorage</packageId>
+        <displayName>LWM's Deep Storage</displayName>
+        <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1617282896</steamWorkshopUrl>
+      </li>
+    </v1.4>
+    <v1.5>
+      <li>
+        <packageId>LWM.DeepStorage</packageId>
+        <displayName>LWM's Deep Storage</displayName>
+        <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1617282896</steamWorkshopUrl>
+      </li>
+    </v1.5>
+    <v1.6>
+      <li>
+        <packageId>LWM.DeepStorage</packageId>
+        <displayName>LWM's Deep Storage</displayName>
+        <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3532608331</steamWorkshopUrl>
+      </li>
+    </v1.6>
+    <v1.7>
+      <li>
+        <packageId>LWM.DeepStorage</packageId>
+        <displayName>LWM's Deep Storage</displayName>
+        <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3532608331</steamWorkshopUrl>
+      </li>
+    </v1.7>
+  </modDependenciesByVersion>
   <loadAfter>
     <li>brrainz.harmony</li>
     <li>LWM.DeepStorage</li>
@@ -103,6 +143,6 @@ This is an extension mod to Deep Storage, adding a series of storage buildings t
 [*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
 [/list] 
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2589072911][img]https://img.shields.io/github/v/release/emipa606/DeepStoragePlus?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | storage, extended, organization</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.6.1</modVersion>
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2589072911][img]https://img.shields.io/github/v/release/emipa606/DeepStoragePlus?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | extended, organization, storage</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.7.0</modVersion>
 </ModMetaData>

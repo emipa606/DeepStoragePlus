@@ -6,4 +6,28 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="deepstorageplus/deepstorageplus.csproj" />
+  <Folder Name="/XML/1.7/Patches/">
+    <File Path="../1.7/Patches/Patch_DubsBadHygiene.xml" />
+    <File Path="../1.7/Patches/Patch_ExpandedMaterialsPlastics.xml" />
+    <File Path="../1.7/Patches/Patch_ExpandedWoodworking.xml" />
+    <File Path="../1.7/Patches/Patch_ExtendedWoodworking.xml" />
+    <File Path="../1.7/Patches/Patch_MorrowRim.xml" />
+    <File Path="../1.7/Patches/Patch_OrganRot.xml" />
+    <File Path="../1.7/Patches/Patch_PawnMorpher.xml" />
+    <File Path="../1.7/Patches/Patch_SimpleChains_Leather.xml" />
+    <File Path="../1.7/Patches/Patch_SimpleChains_Lumber.xml" />
+    <File Path="../1.7/Patches/Patch_SimpleChains_Steel.xml" />
+    <File Path="../1.7/Patches/Patch_TRAHS_Blood.xml" />
+    <File Path="../1.7/Patches/Patch_TRAHS_Milkrats.xml" />
+    <File Path="../1.7/Patches/Patch_VanillaExpanded_Brewing.xml" />
+    <File Path="../1.7/Patches/Patch_VanillaExpanded_Medival.xml" />
+    <File Path="../1.7/Patches/Patch_VFME_SimpleTofu.xml" />
+    <File Path="../1.7/Patches/Patch_VGDrinks.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/">
+    <File Path="../1.7/Defs/Deep_Storage.xml" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
 </Solution>

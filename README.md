@@ -66,4 +66,4 @@ This is an extension mod to Deep Storage, adding a series of storage buildings t
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/DeepStoragePlus?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2589072911) | storage, extended, organization
+[![Image](https://img.shields.io/github/v/release/emipa606/DeepStoragePlus?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2589072911) | extended, organization, storage
